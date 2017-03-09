@@ -126,8 +126,8 @@
   top: 20%; }
   @media screen and (max-width: 720px) {
     .time-line-event {
-      right: 69%;
-      width: 5%; } }
+      right: 68%;
+      width: 7%; } }
   @media screen and (min-width: 721px) {
     .time-line-event {
       right: 48.25%;
@@ -142,14 +142,14 @@
   display: table;
   margin-bottom: 6%; }
 
-@media screen and (min-width: 721px) {
-  .left-block .panel {
-    width: 35% !important;
-    right: 60% !important; } }
 @media screen and (max-width: 720px) {
   .left-block .panel {
     width: 50% !important;
     right: 10% !important; } }
+@media screen and (min-width: 721px) {
+  .left-block .panel {
+    width: 35% !important;
+    right: 60% !important; } }
 
 @media screen and (min-width: 721px) {
   .right-block .panel {
@@ -241,41 +241,47 @@
   position: absolute;
   color: rgba(255, 255, 255, 0.9);
   right: 10%;
-  bottom: -2vw;
   margin: 0.5%;
   padding: 0.5%; }
   @media screen and (max-width: 720px) {
     .right-block .review {
       font-size: 50%;
-      width: 48%; } }
+      width: 48%;
+      bottom: -4vw; } }
   @media screen and (min-width: 721px) and (max-width: 1080px) {
     .right-block .review {
       font-size: 60%;
-      width: 29%; } }
+      width: 29%;
+      bottom: -3vw; } }
   @media screen and (min-width: 1081px) {
     .right-block .review {
       font-size: 80%;
-      width: 29%; } }
+      width: 29%;
+      bottom: -2vw; } }
 
 .left-block .review {
   position: absolute;
   color: rgba(255, 255, 255, 0.9);
-  left: 4%;
-  bottom: -2vw;
   margin: 0.5%;
   padding: 0.5%; }
   @media screen and (max-width: 720px) {
     .left-block .review {
       font-size: 50%;
-      width: 48%; } }
+      width: 48%;
+      right: 10%;
+      bottom: -4vw; } }
   @media screen and (min-width: 721px) and (max-width: 1080px) {
     .left-block .review {
       font-size: 60%;
-      width: 29%; } }
+      width: 29%;
+      left: 4%;
+      bottom: -3vw; } }
   @media screen and (min-width: 1081px) {
     .left-block .review {
       font-size: 80%;
-      width: 29%; } }
+      width: 29%;
+      left: 4%;
+      bottom: -2vw; } }
 
 .review-item, .like, .comment, .share {
   float: left;

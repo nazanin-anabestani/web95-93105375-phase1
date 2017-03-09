@@ -191,7 +191,9 @@
 .contact-item-inner{
   margin: 1vw 1vw;
   float: left;
-  font-size: 1vw;
+  .contact-item{
+    font-size: 1vw;
+  }
 }
 .info{
   @extend .size-45;

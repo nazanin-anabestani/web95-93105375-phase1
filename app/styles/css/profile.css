@@ -244,8 +244,9 @@
 
 .contact-item-inner, .info, .message, .contact-send {
   margin: 1vw 1vw;
-  float: left;
-  font-size: 1vw; }
+  float: left; }
+  .contact-item-inner .contact-item, .info .contact-item, .message .contact-item, .contact-send .contact-item {
+    font-size: 1vw; }
 
 .info .contact-item {
   height: 4vw; }
