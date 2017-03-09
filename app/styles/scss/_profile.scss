@@ -251,6 +251,9 @@
 .profile-gallery{
   @extend .dark-row;
 }
+.profile-gallery-container{
+  overflow: hidden;
+}
 .profile-photos{
   width: 100%;
   padding: 2% 0;
