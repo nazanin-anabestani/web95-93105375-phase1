@@ -117,7 +117,7 @@
   opacity: 0.7; }
 
 .profile-name {
-  font-size: 300%;
+  font-size: 5vw;
   color: #fffb46;
   display: inline-block;
   position: absolute;
@@ -130,7 +130,8 @@
 .profile-desc {
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
-  float: right; }
+  float: right;
+  font-size: 1.5vw; }
 
 .profile-image {
   position: relative;
@@ -150,7 +151,6 @@
 .profile-bio {
   position: relative;
   margin: 4% 0;
-  font-size: 100%;
   color: rgba(255, 255, 255, 0.9);
   line-height: 150%; }
 
@@ -195,12 +195,8 @@
   padding: 0;
   margin: 0; }
 
-@media screen and (max-width: 720px) {
-  .resume-font-size, .profile-resume-download-text, .profile-resume-summary {
-    font-size: 90%; } }
-@media screen and (min-width: 721px) {
-  .resume-font-size, .profile-resume-download-text, .profile-resume-summary {
-    font-size: 120%; } }
+.resume-font-size, .profile-resume-download-text, .profile-resume-summary {
+  font-size: 1.5vw; }
 
 .profile-resume-download-text {
   position: relative;
@@ -215,7 +211,7 @@
       color: #e85656; }
 
 .profile-title {
-  font-size: 300%;
+  font-size: 5vw;
   color: #fffb46;
   position: relative;
   margin: 1% 6%; }
@@ -248,7 +244,8 @@
 
 .contact-item-inner, .info, .message, .contact-send {
   margin: 1vw 1vw;
-  float: left; }
+  float: left;
+  font-size: 1vw; }
 
 .info .contact-item {
   height: 4vw; }
@@ -264,7 +261,6 @@
   position: relative;
   border: none;
   color: rgba(25, 30, 25, 0.95);
-  font-size: 15px;
   display: inline-block;
   width: 100%;
   height: 4vw;

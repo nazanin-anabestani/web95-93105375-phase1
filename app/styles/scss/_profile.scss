@@ -27,7 +27,7 @@
 }
 
 .profile-name{
-  font-size: 300%;
+  font-size: 5vw;
   color: $primary;
   display: inline-block;
   position: absolute;
@@ -44,6 +44,7 @@
   background-color: $panel-background;
   width: 100%;
   float: right;
+  font-size: 1.5vw;
 }
 
 .profile-image{
@@ -71,7 +72,6 @@
   @extend .offset-45;
   @extend .size;
   margin: 4% 0;
-  font-size: 100%;
   color: $light-white;
   line-height: 150%;
 }
@@ -124,13 +124,7 @@
   margin: 0;
 }
 .resume-font-size{
-  @media screen and (max-width: 720px){
-    font-size: 90%;
-  }
-
-  @media screen and (min-width: 721px){
-    font-size: 120%;
-  }
+  font-size: 1.5vw;
 }
 .profile-resume-download-text{
   position: relative;
@@ -153,7 +147,7 @@
 }
 
 .profile-title{
-  font-size: 300%;
+  font-size: 5vw;
   color: $primary;
   position: relative;
   margin: 1% 6%;
@@ -197,6 +191,7 @@
 .contact-item-inner{
   margin: 1vw 1vw;
   float: left;
+  font-size: 1vw;
 }
 .info{
   @extend .size-45;
@@ -225,7 +220,6 @@
   position: relative;
   border: none;
   color: $gray;
-  font-size: 15px;
   display: inline-block;
   width: 100%;
   height: 4vw;
