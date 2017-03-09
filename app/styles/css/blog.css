@@ -116,7 +116,7 @@
     font-size: 90%; }
 
 .more {
-  font-size: 90%;
+  font-size: 1vw;
   margin-top: 4%;
   width: 50%;
   display: inline-block; }
@@ -128,7 +128,7 @@
       color: #e85656; }
 
 .blog-date {
-  font-size: 90%;
+  font-size: 1vw;
   margin-top: 4%;
   color: #fff;
   width: 50%;
