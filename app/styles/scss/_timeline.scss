@@ -16,7 +16,7 @@
   width: 5px;
   bottom: 0;
   float: right;
-  top:3%;
+  top: 3vw;
   position: absolute;
 }
 
@@ -297,4 +297,34 @@
 .filter-container{
   width: 40%;
   //margin-top: 1%;
+}
+.section{
+  @extend .panel;
+  @extend .size-1;
+  float: right;
+  text-align: center;
+  font-size: 1.2vw;
+  @extend .animated;
+  @extend .zoomIn;
+}
+.section-year{
+  @extend .section;
+  @media screen and (min-width: 721px){
+    right: 50%;
+  }
+  @media screen and (max-width: 720px){
+    right: 72%;
+  }
+
+
+}
+
+.section-month{
+  @extend .section;
+  @media screen and (min-width: 721px){
+    right: 23%;
+  }
+  @media screen and (max-width: 720px){
+    right: 43%;
+  }
 }

@@ -25,12 +25,12 @@
 .offset-6 {
   right: 60%; }
 
-.size, .left-block .panel, .right-block .panel {
+.size, .left-block .panel, .left-block .section, .left-block .section-year, .left-block .section-month, .right-block .panel, .right-block .section, .right-block .section-year, .right-block .section-month {
   position: relative;
   box-sizing: border-box;
   float: right; }
 
-.size-1 {
+.size-1, .section, .section-year, .section-month {
   width: 9.6%; }
 
 .size-2 {
@@ -96,10 +96,10 @@
     transform: scale3d(0.2, 0.2, 0.2); }
   50% {
     opacity: 1; } }
-.zoomIn, .time-line-block {
+.zoomIn, .time-line-block, .section, .section-year, .section-month {
   animation-name: zoomIn; }
 
-.animated, .time-line-block {
+.animated, .time-line-block, .section, .section-year, .section-month {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -116,7 +116,7 @@
   position: relative;
   /*height: 80;*/ }
 
-.panel, .left-block .panel, .right-block .panel {
+.panel, .left-block .panel, .right-block .panel, .section, .section-year, .section-month {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 2px;
   height: auto;
@@ -132,7 +132,7 @@
   width: 5px;
   bottom: 0;
   float: right;
-  top: 3%;
+  top: 3vw;
   position: absolute; }
   @media screen and (max-width: 720px) {
     .time-line {
@@ -164,20 +164,20 @@
   margin-bottom: 6%; }
 
 @media screen and (max-width: 720px) {
-  .left-block .panel {
+  .left-block .panel, .left-block .section, .left-block .section-year, .left-block .section-month {
     width: 50% !important;
     right: 10% !important; } }
 @media screen and (min-width: 721px) {
-  .left-block .panel {
+  .left-block .panel, .left-block .section, .left-block .section-year, .left-block .section-month {
     width: 35% !important;
     right: 60% !important; } }
 
 @media screen and (min-width: 721px) {
-  .right-block .panel {
+  .right-block .panel, .right-block .section, .right-block .section-year, .right-block .section-month {
     width: 35% !important;
     right: 5% !important; } }
 @media screen and (max-width: 720px) {
-  .right-block .panel {
+  .right-block .panel, .right-block .section, .right-block .section-year, .right-block .section-month {
     width: 50% !important;
     right: 10% !important; } }
 
@@ -362,5 +362,24 @@
 
 .filter-container {
   width: 40%; }
+
+.section, .section-year, .section-month {
+  float: right;
+  text-align: center;
+  font-size: 1.2vw; }
+
+@media screen and (min-width: 721px) {
+  .section-year {
+    right: 50%; } }
+@media screen and (max-width: 720px) {
+  .section-year {
+    right: 72%; } }
+
+@media screen and (min-width: 721px) {
+  .section-month {
+    right: 23%; } }
+@media screen and (max-width: 720px) {
+  .section-month {
+    right: 43%; } }
 
 /*# sourceMappingURL=timeline.css.map */
