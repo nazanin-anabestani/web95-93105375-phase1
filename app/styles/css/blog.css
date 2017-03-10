@@ -61,7 +61,7 @@
 .blog {
   width: 90%;
   max-width: 1900px;
-  min-width: 700px;
+  min-width: 100px;
   margin: 50px auto; }
 
 #columns {
@@ -90,16 +90,16 @@
     padding-bottom: 15px;
     margin-bottom: 5px; }
   .blog-post .writer {
-    height: 50px;
+    height: 4vw;
     overflow: hidden;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.9);
     margin-bottom: 15px;
     vertical-align: middle; }
   .blog-post .writer-pic {
-    width: 40px;
-    height: 40px;
-    margin: 5px;
+    width: 3vw;
+    height: 3vw;
+    margin: 0.5vw;
     border-radius: 50%;
     float: left; }
   .blog-post .title {
@@ -113,7 +113,7 @@
     position: relative;
     top: 25%;
     left: 1%;
-    font-size: 90%; }
+    font-size: 1vw; }
 
 .more {
   font-size: 1vw;
